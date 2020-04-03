@@ -12,7 +12,7 @@ public class Exercise08 {
 		double avg = 0.0;
 		
 		int cnt = 0;
-		for (int[] arr : array) {
+		for (int[] arr : array) { //array의 원소는 배열원소 int[] 이니까 ing[]앞에 붙여주고 아무것.
 			for (int v : arr) {
 				sum += v;
 				cnt++;
