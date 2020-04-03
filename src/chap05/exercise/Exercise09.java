@@ -1,7 +1,7 @@
 package chap05.exercise;
 
 import java.util.Scanner;
-//수정8
+//수정9
 public class Exercise09 {
 	public static void main(String[] args) {
 		boolean run = true;
