@@ -3,6 +3,8 @@ package chap05.array.multi;
 public class TwoDArray {
 	public static void main(String[] args) {
 		// 06. 2차원 배열
+		
+		
 		int[] a1 = {1,2,3};  //값은 primitive type
 		int[] a2 = {4,5,6};
 		

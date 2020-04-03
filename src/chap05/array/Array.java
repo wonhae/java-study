@@ -21,7 +21,7 @@ public class Array {
 		System.out.println(age1);
 		
 		System.out.println(ageArray[88]);  //0 or false or null
-		//마련된 100개의 공간에 다 0이 채워져있음
+		//마련된 88개의 공간에 다 0이 채워져있음
 		System.out.println(ageArray[90]);
 		
 		// 배열의 초기값 할당
