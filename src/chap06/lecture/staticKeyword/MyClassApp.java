@@ -27,7 +27,7 @@ public class MyClassApp {
 		System.out.println();
 		c1.method();
 		c2.method();
-		
+		System.out.println();
 		c1.method2();
 		c2.method2();
 		MyClass.method2();

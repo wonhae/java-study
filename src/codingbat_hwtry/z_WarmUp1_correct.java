@@ -36,6 +36,15 @@ public class z_WarmUp1_correct {
 		  d= d > c? d : c;
 		  return d;
 		}
+	
+	
+	public boolean in3050(int a, int b) {
+		  boolean h = (a >=30 && a <=40) && (b >=30 && b <=40);
+		  boolean w = (a >=40 && a <=50) && (b >=40 && b <=50);
+		  
+		  return h ^ w;
+		}
+
 
 
 	
