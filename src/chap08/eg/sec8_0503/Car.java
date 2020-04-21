@@ -1,0 +1,20 @@
+package chap08.eg.sec8_0503;
+
+
+import chap08.eg.sec8_0502.HankookTire;
+import chap08.eg.sec8_0502.Tire;
+
+public class Car {
+	Tire[] tires = {
+		new HankookTire(),
+		new HankookTire(),
+		new HankookTire(),
+		new HankookTire()
+	};
+	
+	void run() {
+		for (Tire tire: tires) {
+			tire.roll();
+		}
+	}
+}

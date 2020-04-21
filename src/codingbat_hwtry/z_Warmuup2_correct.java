@@ -41,7 +41,21 @@ public class z_Warmuup2_correct {
 		 return r; 
 		}
 
-	
+	//샘이 수정해주심 
+	public String altPairs(String str) {
+		  String result = "";
+		  
+		    for (int j =0; j<str.length(); j+=4) {
+		      
+		      result += str.substring(j,j+1);
+		      
+		      if (j+1 >= str.length()) break;
+		      result += str.substring(j+1, j+2);
+		      
+		    }
+	  
+		  return result;
+		}
 	
 	
 }
