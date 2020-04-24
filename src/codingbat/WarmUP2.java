@@ -197,4 +197,32 @@ public class WarmUP2 {
 
 		return cnt;
 	}
+
+	public boolean noTriples(int[] nums) {
+
+		for (int i = 0; i < nums.length - 2; i++) {
+			if (nums[i] == nums[i + 1]
+					&& nums[i] == nums[i + 2]) {
+				return false;
+			}
+		}
+
+		return true;
+	}
+
+	public boolean has271(int[] nums) {
+
+		for (int i = 0; i < nums.length - 2; i++) {
+			int second = nums[i] + 5;
+			int third = nums[i] - 1;
+
+			if (second == nums[i + 1]) {
+				if (third - 2 <= nums[i + 2]
+						&& nums[i + 2] <= third + 2) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
 }

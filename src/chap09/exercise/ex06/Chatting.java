@@ -1,8 +1,9 @@
 package chap09.exercise.ex06;
 
 public class Chatting {
+	
 	void startChat(String chatId) {
-		String nickName = null;
+		String nickName = chatId;
 		Chat chat = new Chat() {
 			@Override
 			void start() {
@@ -12,11 +13,7 @@ public class Chatting {
 					sendMessage(message);
 				}
 			}
-			
-			@Override
-			void sendMessage(String message) {
-				System.out.println("sendmessage Override 안해줘서 에러");
-			}
+		
 		};
 		chat.start();		
 	}
