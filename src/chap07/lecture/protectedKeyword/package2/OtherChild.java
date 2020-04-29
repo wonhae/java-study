@@ -5,7 +5,8 @@ import chap07.lecture.protectedKeyword.package1.Parent;
 public class OtherChild {
 	public static void main(String[] args) {
 		Parent p = new Parent();
-		ㅇㄹㅈㅇㄹㄹ
+		//p.defaultField = 3;
+		//p.protectedField = 3;
 		
 		
 	}
